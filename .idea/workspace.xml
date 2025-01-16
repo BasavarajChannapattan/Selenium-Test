@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a999c22f-13bd-4974-8c34-049bba2b5998" name="Changes" comment="">
-      <change afterPath="D:/XpathLocators/.gitignore" afterDir="false" />
-      <change afterPath="D:/XpathLocators/.idea/.gitignore" afterDir="false" />
-      <change afterPath="D:/XpathLocators/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="D:/XpathLocators/.idea/misc.xml" afterDir="false" />
-      <change afterPath="D:/XpathLocators/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="D:/XpathLocators/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="D:/XpathLocators/pom.xml" afterDir="false" />
-      <change afterPath="D:/XpathLocators/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="D:/XpathLocators/src/test/java/ActionClass.java" afterDir="false" />
-      <change afterPath="D:/XpathLocators/src/test/java/AlertPopUps.java" afterDir="false" />
-      <change afterPath="D:/XpathLocators/src/test/java/DatePicker.java" afterDir="false" />
-      <change afterPath="D:/XpathLocators/src/test/java/DragDrop.java" afterDir="false" />
-      <change afterPath="D:/XpathLocators/src/test/java/DropDown.java" afterDir="false" />
-      <change afterPath="D:/XpathLocators/src/test/java/MultipleWindow.java" afterDir="false" />
-      <change afterPath="D:/XpathLocators/src/test/java/TakeScrrenShot.java" afterDir="false" />
+      <change afterPath="D:/XpathLocators/src/test/java/ScrollDown.java" afterDir="false" />
+      <change beforePath="D:/XpathLocators/.idea/workspace.xml" beforeDir="false" afterPath="D:/XpathLocators/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +49,7 @@
     "TestNG.DragDrop.executor": "Run",
     "TestNG.DropDown.doDropDown.executor": "Run",
     "TestNG.MultipleWindow.switchTab.executor": "Run",
+    "TestNG.ScrollDown.scrooling.executor": "Run",
     "TestNG.TakeScrrenShot.takeScreenShot.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -73,22 +61,11 @@
     "settings.editor.selected.configurable": "project.propCompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TakeScrrenShot">
+  <component name="RunManager" selected="TestNG.ScrollDown.scrooling">
     <configuration name="TakeScrrenShot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TakeScrrenShot" />
       <module name="XpathLocators" />
       <option name="WORKING_DIRECTORY" value="D:/XpathLocators" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DatePicker" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="XpathLocators" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DatePicker" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -117,6 +94,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ScrollDown.scrooling" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="XpathLocators" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ScrollDown" />
+      <option name="METHOD_NAME" value="scrooling" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TakeScrrenShot.takeScreenShot" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="XpathLocators" />
       <option name="PACKAGE_NAME" value="" />
@@ -131,18 +120,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.TakeScrrenShot" />
-      <item itemvalue="TestNG.DatePicker" />
+      <item itemvalue="TestNG.ScrollDown.scrooling" />
       <item itemvalue="TestNG.DatePicker.pickTheCurrentDate" />
       <item itemvalue="TestNG.MultipleWindow.switchTab" />
       <item itemvalue="TestNG.TakeScrrenShot.takeScreenShot" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ScrollDown.scrooling" />
         <item itemvalue="Application.TakeScrrenShot" />
         <item itemvalue="TestNG.TakeScrrenShot.takeScreenShot" />
         <item itemvalue="TestNG.MultipleWindow.switchTab" />
         <item itemvalue="TestNG.DatePicker.pickTheCurrentDate" />
-        <item itemvalue="TestNG.DatePicker" />
       </list>
     </recent_temporary>
   </component>
