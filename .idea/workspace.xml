@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a999c22f-13bd-4974-8c34-049bba2b5998" name="Changes" comment="">
-      <change afterPath="D:/XpathLocators/src/test/java/ScrollDown.java" afterDir="false" />
+      <change afterPath="D:/XpathLocators/src/test/java/DataProvider.java" afterDir="false" />
       <change beforePath="D:/XpathLocators/.idea/workspace.xml" beforeDir="false" afterPath="D:/XpathLocators/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +40,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "TestNG.ActionClass.Action.executor": "Run",
     "TestNG.AlertPopUps.popups.executor": "Run",
+    "TestNG.DataProvider.executor": "Run",
     "TestNG.DatePicker.PickTheDate.executor": "Run",
     "TestNG.DatePicker.executor": "Run",
     "TestNG.DatePicker.pickTheCurrentDate.executor": "Run",
@@ -61,7 +62,7 @@
     "settings.editor.selected.configurable": "project.propCompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.ScrollDown.scrooling">
+  <component name="RunManager" selected="TestNG.DataProvider">
     <configuration name="TakeScrrenShot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TakeScrrenShot" />
       <module name="XpathLocators" />
@@ -70,12 +71,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatePicker.pickTheCurrentDate" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="XpathLocators" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DatePicker" />
-      <option name="METHOD_NAME" value="pickTheCurrentDate" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="DataProvider" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -120,18 +120,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.TakeScrrenShot" />
+      <item itemvalue="TestNG.DataProvider" />
       <item itemvalue="TestNG.ScrollDown.scrooling" />
-      <item itemvalue="TestNG.DatePicker.pickTheCurrentDate" />
       <item itemvalue="TestNG.MultipleWindow.switchTab" />
       <item itemvalue="TestNG.TakeScrrenShot.takeScreenShot" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DataProvider" />
         <item itemvalue="TestNG.ScrollDown.scrooling" />
         <item itemvalue="Application.TakeScrrenShot" />
         <item itemvalue="TestNG.TakeScrrenShot.takeScreenShot" />
         <item itemvalue="TestNG.MultipleWindow.switchTab" />
-        <item itemvalue="TestNG.DatePicker.pickTheCurrentDate" />
       </list>
     </recent_temporary>
   </component>
