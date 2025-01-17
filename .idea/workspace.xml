@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a999c22f-13bd-4974-8c34-049bba2b5998" name="Changes" comment="">
-      <change afterPath="D:/XpathLocators/src/test/java/DataProvider.java" afterDir="false" />
       <change beforePath="D:/XpathLocators/.idea/workspace.xml" beforeDir="false" afterPath="D:/XpathLocators/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="D:/XpathLocators/src/test/java/DatePicker.java" beforeDir="false" afterPath="D:/XpathLocators/src/test/java/DatePicker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +22,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="D:/XpathLocators" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/4.23.1/selenium-api-4.23.1-sources.jar!/org/openqa/selenium/OutputType.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -59,10 +62,18 @@
     "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propCompiler"
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.DataProvider">
+  <component name="RunManager" selected="TestNG.DatePicker.pickTheCurrentDate">
+    <configuration name="DatePicker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DatePicker" />
+      <module name="XpathLocators" />
+      <option name="WORKING_DIRECTORY" value="D:/XpathLocators" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TakeScrrenShot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TakeScrrenShot" />
       <module name="XpathLocators" />
@@ -82,11 +93,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultipleWindow.switchTab" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DatePicker.pickTheCurrentDate" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="XpathLocators" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MultipleWindow" />
-      <option name="METHOD_NAME" value="switchTab" />
+      <option name="MAIN_CLASS_NAME" value="DatePicker" />
+      <option name="METHOD_NAME" value="pickTheCurrentDate" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -106,32 +117,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TakeScrrenShot.takeScreenShot" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="XpathLocators" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TakeScrrenShot" />
-      <option name="METHOD_NAME" value="takeScreenShot" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.DatePicker" />
       <item itemvalue="Application.TakeScrrenShot" />
       <item itemvalue="TestNG.DataProvider" />
       <item itemvalue="TestNG.ScrollDown.scrooling" />
-      <item itemvalue="TestNG.MultipleWindow.switchTab" />
-      <item itemvalue="TestNG.TakeScrrenShot.takeScreenShot" />
+      <item itemvalue="TestNG.DatePicker.pickTheCurrentDate" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DatePicker.pickTheCurrentDate" />
+        <item itemvalue="Application.DatePicker" />
         <item itemvalue="TestNG.DataProvider" />
         <item itemvalue="TestNG.ScrollDown.scrooling" />
         <item itemvalue="Application.TakeScrrenShot" />
-        <item itemvalue="TestNG.TakeScrrenShot.takeScreenShot" />
-        <item itemvalue="TestNG.MultipleWindow.switchTab" />
       </list>
     </recent_temporary>
   </component>
